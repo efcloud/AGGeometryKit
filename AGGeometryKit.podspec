@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
     s.name         = "AGGeometryKit"
-    s.version      = "1.2.9"
+    s.version      = "1.3.0"
     s.summary      = "Quadrilaterals on CALayer, CGGeometry-functions, UIView/CALayer properties and other invaluable tools."
     s.homepage     = "https://github.com/hfossli/AGGeometryKit"
     s.license      = 'MIT'
-    s.ios.deployment_target = '5.0'
+    s.ios.deployment_target = '15.0'
     s.tvos.deployment_target = '9.0'
     s.requires_arc  = true
     s.authors      = {
