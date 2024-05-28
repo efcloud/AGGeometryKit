@@ -15,7 +15,7 @@
 		<dict>
 			<key>FooterText</key>
 			<string>
-Author: H&#229;vard Fossli &lt;hfossli@agens.no&gt;
+Author: Håvard Fossli &lt;hfossli@agens.no&gt;
 
 Copyright (c) 2013 Agens AS (http://agens.no/)
 
@@ -36,6 +36,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.</string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>AGGeometryKit</string>
 			<key>Type</key>

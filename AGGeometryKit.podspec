@@ -20,16 +20,17 @@ Pod::Spec.new do |s|
 
     s.frameworks    = 'CoreGraphics', 'UIKit', 'QuartzCore'
     s.source_files  = 'AGGeometryKit/**/*.{h,m}'
+    s.exclude_files = "AGGeometryKit/include"
 
     # Some users of this library prefers to only use this subspec
     s.subspec 'UIViewProperties' do |ss|
         ss.frameworks    = 'CoreGraphics', 'UIKit', 'QuartzCore'
-        ss.source_files  = 'AGGeometryKit/**/UIView+AGK+Properties.{h,m}'
+        ss.source_files  = '**/UIView+AGK+Properties.{h,m}'
     end
 
     # Some users of this library prefers to only use this subspec
     s.subspec 'CALayerProperties' do |ss|
         ss.frameworks    = 'CoreGraphics', 'QuartzCore'
-        ss.source_files  = 'AGGeometryKit/**/CALayer+AGK+Properties.{h,m}'
+        ss.source_files  = '**/CALayer+AGK+Properties.{h,m}'
     end
 end
